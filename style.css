@@ -1,0 +1,338 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+body {
+    background-color: #130f1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #1f1b29;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #2e2a36;
+    border-color: #2e2a36;
+}
+
+button {
+    background-color: #651fff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b0cb5;
+    /* Change the background color on hover */
+}
+
+p {
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #bab9bd;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    line-height: 0px;
+    word-wrap: break-word;
+}
+
+sub {
+    color: #bab9bd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    padding-bottom: 5px;
+}
+
+.News {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "roboto";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+a:link,
+a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #bb1010;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Line {
+    display: flex;
+    border-radius: 11px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.alt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a5761;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding-bottom: 3px;
+}
+
+.button-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7px;
+    border-radius: 1;
+}
+
+.google,
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 38px;
+    background-color: #2e2a36;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #2e2a36;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+article {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.grow1 {
+    display: flex;
+}
+
+.Contact__Box {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f1b29;
+    color: #1f1b29;
+    padding: 20px;
+    height: 33rem;
+    width: 30rem;
+    border: 1px solid;
+    border-radius: 10px;
+   
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+    letter-spacing: -0.64px;
+    color: #99969E;
+}
+
+
+
+
+.row {
+    display: flex;
+    padding-left: 4%;
+
+}
+
+.column2 {
+    padding-left: 4%;
+}
+
+
+label {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    
+  
+
+
+}
+
+.Subscribe {
+    display: flex;
+    padding-left: 4%;
+    padding-top: 4%;
+
+    
+}
+.Note__Input {
+    
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+/* Customize the size of the input box */
+.custom-input {
+    width: 94%; /* Adjust the width as needed */
+    height: 6rem; /* Adjust the height as needed */
+    /* Add any other styling you want */
+}
+
+.submit__button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+  }
+  
+  .purple-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    cursor: pointer;
+  }
+  
+
+  .container-box{
+    display: flex;
+  }
+
+.inforow{
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+
+  .left-side{
+    padding-left: 2%;
+    background-color:#4b0cb5;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+width: 14rem;
+
+  }
+
+  
+ h6{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: var(--White, #FFF);
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.32px;
+
+ }
+
+ .Iphone{
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+     
+     
+ }
+
+
+ .email{
+    display: flex;
+    padding-left: 3%;
+ }
+
+ .right-side{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1f1b29;
+    color: #1f1b29;
+    padding: 20px;
+    height: 33rem;
+    width: 30rem;
+    border: 1px solid;
+    border-radius: 10px;
+
+ }
+
+
+
+ .checkout_box{
+    display: flex;
+padding: 15%;
+background-color: #1F1B29;
+gap: 32px;
+ }
